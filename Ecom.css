@@ -1,0 +1,98 @@
+body{
+  background-color: black;
+  box-sizing: border-box;
+}
+
+/* the start of navigational links*/
+.nav1{
+   color: #0000ff;
+   top: 10px;
+   position: absolute;
+   margin-top: 10px;
+}
+
+#nav nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+ 
+}
+.nav2{
+   position: absolute;
+   right: 50px;
+   top: 23px;
+   text-indent: 10px;
+  
+}
+.parent-nav nav ul a{
+   color: #ddd;
+   text-decoration: none;
+}
+.parent-nav nav ul a:hover{
+   color:red;
+   transition: ease-in-out;
+}
+
+/* The images container */
+img{
+   height:40vh;
+   width:100%;
+}
+/* The next layer */
+.nextlayer{
+   color: #000000;
+   text-align: center;
+   background-color: aqua;  
+}
+#btn{
+   color: blue;
+   background-color: red;
+   
+}
+/* The image2 section */
+#img3{
+   display: flex;
+}
+
+/* The The footer */
+
+footer{
+   background-color: aqua;
+   
+}
+.column,.row{
+   display: flex;
+   align-items: center;
+   margin-left: 150px;
+   
+}
+
+   
+.column .row div h4{
+   color:#0000ff;
+  bottom: -4vh;
+    position:absolute;
+   margin-left: 40px;
+}
+
+.column .row div  ul li{
+   list-style: none;
+} 
+.column .row div  ul li a{
+   color: #000000;
+   text-decoration: none;
+}
+
+.column .row div  ul li a:hover{
+   color: red;
+   transition: ease-in 2ms;
+}
+
+.row2{
+   margin-left: 80px;
+}
+
+
+.row3{
+   margin-left: 70px;
+}
